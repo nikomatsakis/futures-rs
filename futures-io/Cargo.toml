@@ -1,3 +1,5 @@
+cargo-features = ["edition"]
+
 [package]
 name = "futures-io"
 version = "0.2.1"
@@ -9,6 +11,7 @@ documentation = "https://docs.rs/futures-io"
 description = """
 The `AsyncRead` and `AsyncWrite` traits for the futures-rs library.
 """
+edition = "2018"
 
 [features]
 std = ["futures-core/std", "iovec"]

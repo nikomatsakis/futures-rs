@@ -1,3 +1,5 @@
+cargo-features = ["edition"]
+
 [package]
 name = "futures-core"
 version = "0.2.1"
@@ -9,6 +11,7 @@ documentation = "https://docs.rs/futures-core"
 description = """
 The core traits and types in for the `futures` library.
 """
+edition = "2018"
 
 [features]
 default = ["std"]
