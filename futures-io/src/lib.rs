@@ -5,6 +5,7 @@
 //! that these traits integrate with the asynchronous task system.
 
 #![no_std]
+#![feature(rust_2018_preview)]
 #![deny(missing_docs, missing_debug_implementations)]
 #![doc(html_rnoot_url = "https://docs.rs/futures-io/0.2.1")]
 
