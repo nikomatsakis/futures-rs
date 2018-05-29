@@ -20,6 +20,7 @@
 //! completion, but *do not block* the thread running them.
 
 #![no_std]
+#![feature(rust_2018_preview)]
 #![doc(html_root_url = "https://docs.rs/futures/0.2.1")]
 
 #![cfg_attr(feature = "nightly", feature(cfg_target_has_atomic))]
