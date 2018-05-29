@@ -3,6 +3,7 @@
 #![no_std]
 #![deny(missing_docs, missing_debug_implementations, warnings)]
 #![doc(html_root_url = "https://docs.rs/futures-core/0.2.1")]
+#![feature(rust_2018_preview)]
 
 #![cfg_attr(feature = "nightly", feature(cfg_target_has_atomic))]
 #![cfg_attr(feature = "nightly", feature(pin))]
