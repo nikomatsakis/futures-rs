@@ -4,7 +4,7 @@ use std::any::TypeId;
 use std::hash::{BuildHasherDefault, Hasher};
 use std::collections::HashMap;
 
-use task;
+use crate::task;
 
 /// A macro to create a `static` of type `LocalKey`
 ///

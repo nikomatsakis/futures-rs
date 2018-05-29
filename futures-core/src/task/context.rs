@@ -1,6 +1,6 @@
 use core::fmt;
-use executor::Executor;
-use task::{Waker, LocalMap};
+use crate::executor::Executor;
+use crate::task::{Waker, LocalMap};
 
 /// Information about the currently-running task.
 ///
@@ -68,8 +68,8 @@ impl<'a> Context<'a> {
 
 if_std! {
     use std::boxed::Box;
-    use Future;
-    use never::Never;
+    use crate::Future;
+    use crate::never::Never;
 
     impl<'a> Context<'a> {
         /// Create a new task context.

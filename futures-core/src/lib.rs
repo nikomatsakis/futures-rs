@@ -23,17 +23,17 @@ macro_rules! if_std {
 
 #[macro_use]
 mod poll;
-pub use poll::{Async, Poll};
+pub use crate::poll::{Async, Poll};
 
 pub mod future;
-pub use future::{Future, IntoFuture};
+pub use crate::future::{Future, IntoFuture};
 
 pub mod stream;
-pub use stream::Stream;
+pub use crate::stream::Stream;
 
 pub mod task;
 
 pub mod executor;
 
 pub mod never;
-pub use never::Never;
+pub use crate::never::Never;

@@ -1,5 +1,5 @@
-use {Future, IntoFuture, Poll, Async};
-use task;
+use crate::{Future, IntoFuture, Poll, Async};
+use crate::task;
 
 /// A future representing a value that is immediately ready.
 ///

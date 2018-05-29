@@ -1,8 +1,8 @@
 //! Definition and trait implementations for the `Never` type,
 //! a stand-in for the `!` type until it becomes stable.
 
-use {Future, Stream, Poll};
-use task;
+use crate::{Future, Stream, Poll};
+use crate::task;
 
 /// A type with no possible values.
 ///

@@ -1,7 +1,7 @@
 //! Asynchronous streams.
 
-use Poll;
-use task;
+use crate::Poll;
+use crate::task;
 
 /// A stream of values produced asynchronously.
 ///
@@ -71,8 +71,8 @@ impl<'a, S: ?Sized + Stream> Stream for &'a mut S {
 }
 
 if_std! {
-    use Async;
-    use never::Never;
+    use crate::Async;
+    use crate::never::Never;
 
     impl<S: ?Sized + Stream> Stream for ::std::boxed::Box<S> {
         type Item = S::Item;

@@ -2,8 +2,8 @@
 
 if_std! {
     use std::boxed::Box;
-    use Future;
-    use never::Never;
+    use crate::Future;
+    use crate::never::Never;
 
     /// A task executor.
     ///

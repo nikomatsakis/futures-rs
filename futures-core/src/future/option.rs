@@ -1,7 +1,7 @@
 //! Definition of the `Option` (optional step) combinator
 
-use {Future, IntoFuture, Poll, Async};
-use task;
+use crate::{Future, IntoFuture, Poll, Async};
+use crate::task;
 
 /// A future representing a value which may or may not be present.
 ///

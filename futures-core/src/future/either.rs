@@ -1,4 +1,4 @@
-use {task, Future, Poll, Stream};
+use crate::{task, Future, Poll, Stream};
 
 use either::Either;
 
